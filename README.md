@@ -49,19 +49,57 @@ All vaild HTML elements and their nesting rules are defined in a specification m
 ```
 
 ## What is CSS and how does it style web pages? | Web Demystified, Episode 2  
+> Like HTML, CSS is a descriptive language, but instead of defining a semantic for some text it defines the look and feel of each HTML element.  
 
+> In other words, CSS is like makeup for HTML.  
+
+* CSS is an acronym standing for Cascading Style Sheets.  
+* At the end of the 90's with the idea to create a clear distinction between text semantics and presentation.
+ * 1996, CSS1
+ * 2011, CSS2  
+ * CSS3 -> More fine grain, Since than  
+ 
+ There are 3 ways to apply CSS to an HTML document. But the below way is the only way recommanded.  
+ 
+ ```html
+ <link rel="stylesheet" href="styles.css">
+ ```  
+ 
+ CSS rule:  
+ ```css
+ selectors {
+    property name: property value;
+ }
+ ```
 
 
 ## What is JavaScript and how does it work? | Web Demystified, Episode 3  
+> JavaScript is the programing language at the heart of the modern web.  
+
+* crated in 1995, but very quickly in 1997, it has been standardized at the standards organization ECMA International under the name ECMAScript.  
+* ECMAScript defines the basic syntax of the language, and its core mechanisms. But in itself, it doesn't do very much.  
+
+* Two flavors of JavaScript:  
+    * JavaScript in the browser:  
+        * modify your HTML doc (DOM)  
+        * making network requests (Fetch XMLHttpRequest)  
+        * managing data (Web Storage IndexedDB)  
+        * doing audio and graphics redering (Web Audio / WebGL / Canvas 2D)  
+        
+    * JavaScript on the server (node.js)  
+        * manage the computer directly  
+        * accesss files and folder  
+        * handle network resources  
+        * spawn processes  
+        * etc.
 
 
+## What are Scalable Vector Graphics (SVG) & how are they special? | Web Demystified, Episode 4  | SVG
+> to do...
 
-## What are Scalable Vector Graphics (SVG) & how are they special? | Web Demystified, Episode 4  
 
-
-
-## How do web browsers work? | Web Demystified, Episode 5  
-
+## How do web browsers work? | Web Demystified, Episode 5  | How browsers work?
+> to do...
 
 
 
