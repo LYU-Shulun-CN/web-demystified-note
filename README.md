@@ -73,7 +73,7 @@ If you want to continue the discussion feel free to comment down below or join m
 
 And until next time… Long live the open web! Bye!  
 
-![What the web is and how it works.](images/what-the-web-is-and-how-it works.png)
+![What the web is and how it works.](images/what-the-web-is-and-how-it-works.png)
 
 
 
