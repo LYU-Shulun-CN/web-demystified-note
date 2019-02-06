@@ -1,5 +1,6 @@
 # Web Demystified (简明的解释) 教程的笔记  
-> Youtube Mozilla Hacks Channel  
+> Youtube Mozilla Hacks Channel    
+> By Jeremie Patonnier  
 
 ## What is "The Web" and how does it work? | Web Demystified, Episode 0 | The Web
 > Jeremie Patonnier offers an overview of **what the web is and how it works**. If you're just getting started on the web, this is an important overview for you!  
@@ -27,7 +28,7 @@ The browser will mix all the necessary documents to turn any HTML document into 
 * HTML (HyperText Markup Language)
   * a HTML document can create a link to other HTML document  
   * a system to annotate some plain text with tags
-  
+
 1.**HTML is markup langugage**.  
 > HTML is a markup language that allows to structure a text in order to make it understandable by web browsers.   
 
@@ -58,13 +59,13 @@ All vaild HTML elements and their nesting rules are defined in a specification m
  * 1996, CSS1
  * 2011, CSS2  
  * CSS3 -> More fine grain, Since than  
- 
+
  There are 3 ways to apply CSS to an HTML document. But the below way is the only way recommanded.  
- 
+
  ```html
  <link rel="stylesheet" href="styles.css">
  ```  
- 
+
  CSS rule:  
  ```css
  selectors {
@@ -85,7 +86,7 @@ All vaild HTML elements and their nesting rules are defined in a specification m
         * making network requests (Fetch XMLHttpRequest)  
         * managing data (Web Storage IndexedDB)  
         * doing audio and graphics redering (Web Audio / WebGL / Canvas 2D)  
-        
+
     * JavaScript on the server (node.js)  
         * manage the computer directly  
         * accesss files and folder  
@@ -100,7 +101,3 @@ All vaild HTML elements and their nesting rules are defined in a specification m
 
 ## How do web browsers work? | Web Demystified, Episode 5  | How browsers work?
 > to do...
-
-
-
-
