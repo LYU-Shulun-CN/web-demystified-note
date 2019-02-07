@@ -157,7 +157,11 @@ They provide a set of instructions about how the image should be rendered, and i
 
 ![vector example2](images/vector2.png)  
 
+### Benefits and limitations  
 
+There are a lot of benefits and limitations to each format, but to make it short:  
+* **Bitmap images** are well suited for highly detailed iamges, such as **photographs**;  
+* **Vector iamges** are well suited for less detailed images that need to be scaled at different sizes, like **icons** or **data representations**.
 
 ## How do web browsers work? | Web Demystified, Episode 5  | How browsers work?
 > to do...
