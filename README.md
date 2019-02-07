@@ -139,7 +139,7 @@ Images exist in two flavors:
 * Bitmaps  
 ![bitmap example](images/bitmap.png)
 * Vectors  
-![vector example](images/bitmap.png)
+![vector example](images/vector.png)
 
 
 ## How do web browsers work? | Web Demystified, Episode 5  | How browsers work?
