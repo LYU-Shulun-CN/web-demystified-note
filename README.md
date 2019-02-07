@@ -54,13 +54,17 @@ All vaild HTML elements and their nesting rules are defined in a specification m
 
 > In other words, CSS is like makeup for HTML.  
 
-* CSS is an acronym standing for Cascading Style Sheets.  
+* CSS is an acronym standing for `Cascading Style Sheets`.  
 * At the end of the 90's with the idea to create a clear distinction between text semantics and presentation.
  * 1996, CSS1
  * 2011, CSS2  
  * CSS3 -> More fine grain, Since than  
 
  There are 3 ways to apply CSS to an HTML document. But the below way is the only way recommanded.  
+
+```html
+<span style=""></span>
+```
 
  ```html
  <link rel="stylesheet" href="styles.css">
@@ -73,26 +77,59 @@ All vaild HTML elements and their nesting rules are defined in a specification m
  }
  ```
 
+1.`CSS` is a declarative language that allows you to define the look and feel of `HTML` elements.  
+> `CSS` allows to define the look and feel of `HTML`.  
+
+2.Styles rules target `HTML` elements with selectors and they applied visual effects defined by style declarations.  
+> Style rules define the visual effects to apply.  
+
+3.The cascade allows to override and combine those rules.  
+> The cascade defines how to mix style rules.  
+
 
 ## What is JavaScript and how does it work? | Web Demystified, Episode 3  
-> JavaScript is the programing language at the heart of the modern web.  
+> `JavaScript` is the programing language at the heart of the modern web.  
 
-* crated in 1995, but very quickly in 1997, it has been standardized at the standards organization ECMA International under the name ECMAScript.  
-* ECMAScript defines the basic syntax of the language, and its core mechanisms. But in itself, it doesn't do very much.  
+* `JavaScript` was crated in 1995, but very quickly in 1997, it has been standardized at the standards organization ECMA International under the name `ECMAScript`.  
+* `ECMAScript` defines the basic syntax of the language, and its core mechanisms. But in itself, it doesn't do very much.  
 
-* Two flavors of JavaScript:  
-    * JavaScript in the browser:  
-        * modify your HTML doc (DOM)  
-        * making network requests (Fetch XMLHttpRequest)  
+* Two flavors of `JavaScript`:  
+    * `JavaScript` in the browser:  
+        * modify your `HTML` doc (`DOM`)  
+        * making network requests (Fetch `XMLHttpRequest`)  
         * managing data (Web Storage IndexedDB)  
         * doing audio and graphics redering (Web Audio / WebGL / Canvas 2D)  
+        *  
 
-    * JavaScript on the server (node.js)  
+    * `JavaScript` on the server (node.js)  
         * manage the computer directly  
         * accesss files and folder  
         * handle network resources  
-        * spawn processes  
+        * spawn processes (多线程)
         * etc.
+
+### Let's focus on JavaScript inside the browser:  
+
+Like `CSS`, `JavaScript` is embedded in HTML using a specific HTML element:  
+
+```html
+<script>
+    /*Your code here.*/
+    alert("Hello, I',m JavaScript!");
+</script>
+```
+
+```html
+<script src="my-script.js"></script>
+```
+
+1.`JavaScript` is a programing language.  
+
+2.It's a combination of the `ECMAScript` standard with other standard functionalities.  
+> It's made of `ECMAScript` plus some standard APIs.  
+
+3.It's highly asnchronous and it can react to events.  
+> It has access to asynchronous features.  
 
 
 ## What are Scalable Vector Graphics (SVG) & how are they special? | Web Demystified, Episode 4  | SVG
