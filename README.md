@@ -6,13 +6,13 @@
 > Jeremie Patonnier offers an overview of **what the web is and how it works**. If you're just getting started on the web, this is an important overview for you!  
 
 1.The web is a collection of documents that will be requested by a browser from a server.  
-> **1.Documents are available on servers.**  
+> **Documents are available on servers.**  
 
 2.Each document is accessible through a web address.  
-> **2.Documents are accessible through a web address.**  
+> **Documents are accessible through a web address.**  
 
 3.The browser will mix all the necessary documents to turn any HTML document into a nice web page.  
-> **3.Browsers mix documents to render web pages.**  
+> **Browsers mix documents to render web pages.**  
 
 ![What the web is and how it works.](images/what-the-web-is-and-how-it-works.png)  
 
