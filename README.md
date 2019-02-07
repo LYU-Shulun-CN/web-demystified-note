@@ -133,7 +133,13 @@ Like `CSS`, `JavaScript` is embedded in HTML using a specific HTML element:
 
 
 ## What are Scalable Vector Graphics (SVG) & how are they special? | Web Demystified, Episode 4  | SVG
-> to do...
+> `SVG` is a acronym standing for `Scalable Vector Graphics`, and it's the only vector image format for the web.  
+
+Images exist in two flavors:  
+* Bitmaps  
+![bitmap example](images/bitmap.png)
+* Vectors  
+![vector example](images/bitmap.png)
 
 
 ## How do web browsers work? | Web Demystified, Episode 5  | How browsers work?
