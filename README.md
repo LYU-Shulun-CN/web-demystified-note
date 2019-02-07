@@ -17,7 +17,7 @@
 ![What the web is and how it works.](images/what-the-web-is-and-how-it-works.png)  
 
 ```c
-/* 是重要注意的是：1.SVG 会随着浏览器的不同而渲染出不同的效果；2.文件名不能留空格。 */
+/* 需要注意的是：1.SVG 会随着浏览器的不同而渲染出不同的效果；2.文件名不能留空格。 */
 ```
 
 ## What's HTML and how does it work? | Web Demystified, Episode 1  
