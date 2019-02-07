@@ -228,4 +228,49 @@ Inskape, Illustrator and Sketch are very likely the most used software to output
 > It's easier to use a drawing tool to create an SVG image.   
 
 ## How do web browsers work? | Web Demystified, Episode 5  | How browsers work?
-> to do...
+> web browsers are mixing things together in order to display web documents.  
+
+### 1.What are exactly browsers able to do these days?  
+
+**First of all**, because the web is all about requesting documentws stored on the Internet, they are able to **handle network connections**.  
+
+* Historically, that was done using the `HTTP` protocol to perform simple CRUD operations on documents.  
+* But nowadays they can also create bidirectional communication channels with a server.  
+* Or they can even create a peer-to-peer connections with another browser.  
+
+**Second**, they have to be able to understand, render and/or execute different languages.  
+
+They also have to be able to render fonts, images, audio and videos.  
+
+**Third**, everthing you see in a browser must be interactive. You can select text, scroll pages, click on links, input text, drag and drop content, etc.  
+
+**Fourth**, they can store data, either by caching content or providing various storage mechanisms.  
+
+**Fifth**, all of this must work regardless of the complexity of each page and regardless of the number of pages open at the same time!  
+
+**Last but not least**, because the Internet remains a wild place and because websites can aggregate contents from very different sources, things have to be reasonably **secured**.  
+* be able to manage data encryption.  
+* and to sandbox every set of content in order to prevent malicious code to accesss other content.  
+
+
+### 2.There are two ways to handle interactivity  
+
+On the one hand, there are all the native interactions that the browser is providing, usually through `HTML` and `CSS`.  
+
+On the other hand, there is what JavaScript lets people do.  
+
+### 3.Recap  
+
+1.Browsers handle a lot of things:  
+* networks  
+* content display  
+* data storage  
+* content security  
+all in a very interactive way.  
+> Browsers handle network, content display, data storage, and contentsecurity.  
+
+2.They handle technical requirements that can be compared to those of super high-end games.  
+> Their technical requirements are the same sa those of AAA games.  
+
+3.They give content creators the ability to create any form of interactivity.  
+> They let web creators building any type of content.
