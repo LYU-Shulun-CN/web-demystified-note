@@ -135,7 +135,7 @@ Like `CSS`, `JavaScript` is embedded in HTML using a specific HTML element:
 ## What are Scalable Vector Graphics (SVG) & how are they special? | Web Demystified, Episode 4  | SVG
 > `SVG` is a acronym standing for `Scalable Vector Graphics`, and it's the only vector image format for the web.  
 
-### Bitmap VS. Vector  
+### 1.Bitmap VS. Vector  
 
 Images exist in two flavors:  
 * Bitmaps  
@@ -157,11 +157,75 @@ They provide a set of instructions about how the image should be rendered, and i
 
 ![vector example2](images/vector2.png)  
 
-### Benefits and limitations  
+### 2.Benefits and limitations  
 
 There are a lot of benefits and limitations to each format, but to make it short:  
 * **Bitmap images** are well suited for highly detailed iamges, such as **photographs**;  
-* **Vector iamges** are well suited for less detailed images that need to be scaled at different sizes, like **icons** or **data representations**.
+* **Vector iamges** are well suited for less detailed images that need to be scaled at different sizes, like **icons** or **data representations**.  
+
+### 3.SVG  
+
+First, it's a text format written with `tags`, like `HTML`.  
+
+Second, it can be styled with `CSS`, like `HTML`.  
+
+Third, it can be scrpted with `JavaScript`, like `HTML`.
+
+```html
+<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 10 10">
+    <style>
+    rect {
+        fill:yellow;
+        stroke: red;
+        cursor: pointer;
+    }
+    </style>
+    <script>
+    // Once the document is loaded
+    window.addEventListener("load", () => {
+        var rect = document.querySelector("rect");
+
+        // When you click on the rectangle
+        rect.addEventListener("click", () => {
+
+                // Pick a random number between 0 and 16777215
+                var fill = Math.ceil(Math.random() * 0xffffff);
+
+                // Stringify to make if a valid CSS color
+                fill = fill.toString(16).padStart(6, "0");
+
+                // Apply the color to the rectangle
+                rect.style.fill = `#${fill}`;
+        });
+    });
+    </script>
+    <rect x="2" y="2" width="6" height="6" />
+</svg>
+```  
+
+### 4.A good pieve of vector drawing software  
+> I'm definitely a drawing software person.  
+
+Inskape, Illustrator and Sketch are very likely the most used software to output SVG out of the box.  
+
+![software for drawing SVG](images/svg-softwares.png)  
+
+
+### 5.There are many JavaScript libraries that can be very helpful  
+
+![JavaScript libraries for crating SVG](images/svg-libraries.png)
+
+
+### 6.Recap  
+
+1.`SVG` is a vector image format for the web, perfect to create images that stay sharp at any scale.  
+> `SVG` is a vector iamge format  
+
+2.It can be authored, styled and scripted like `HTML` would be.  
+> It can be styled and scripted like `HTML`.   
+
+3.Creating such images by hand is not impossible but it's easier to use a drawing software to do so.    
+> It's easier to use a drawing tool to create an SVG image.   
 
 ## How do web browsers work? | Web Demystified, Episode 5  | How browsers work?
 > to do...
